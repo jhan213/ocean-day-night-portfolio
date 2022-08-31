@@ -72,15 +72,10 @@ function writeText() {
 
     if (idx > text.length) {
         idx = 1;
-        // setTimeout(function () {
-        //     textEl.innerText = "";
-        // }, 1000);
     } else {
         setTimeout(writeText, speed);
     }
 }
-
-// writeText();
 
 const panels = document.querySelectorAll('.panel');
 
